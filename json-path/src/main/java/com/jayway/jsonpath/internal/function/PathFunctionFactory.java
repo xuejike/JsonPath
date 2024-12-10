@@ -56,7 +56,7 @@ public class PathFunctionFactory {
         map.put("index", Index.class);
 
 
-        FUNCTIONS = Collections.unmodifiableMap(map);
+        FUNCTIONS = (map);
     }
 
     /**
